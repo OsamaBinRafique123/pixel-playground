@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <Github className="w-5 h-5 text-muted-foreground" />
             <span className="font-mono text-sm text-muted-foreground">
-              najam.portfolio © {new Date().getFullYear()}
+              Osama Bin Rafique.portfolio © {new Date().getFullYear()}
             </span>
           </div>
 
@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             {[
               { label: "GitHub", href: "https://github.com/ctoic" },
-              { label: "Email", href: "mailto:najamabass2020@gmail.com" },
+              { label: "Email", href: "mailto:osamabinrafique@gmail.com" },
             ].map((link) => (
               <a
                 key={link.label}
